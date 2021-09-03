@@ -91,6 +91,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:visited {
+    color: black;
+}
+
 #jumbo {
     width: 100%;
     padding-bottom: 2%;
@@ -127,15 +131,54 @@ nav a {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div.box1 {
+    background: teal;
+}
+
+div.box2 {
+    background: gold;
+}
+
+div.box3 {
+    background: cadetblue;
+}
+
+div.box4 {
+    background: coral;
+}
+
+div.box5 {
+    background: crimson;
+}
+
+div.box6 {
+    background: forestgreen;
+}
+
+div.box7 {
+    background: darkorchid;
+}
+
+div.box8 {
+    background: hotpink;
+}
+
+div.box9 {
+    background: indigo;
+}
+
+div.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
