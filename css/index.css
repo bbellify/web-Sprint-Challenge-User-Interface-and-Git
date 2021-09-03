@@ -95,11 +95,10 @@ nav a:visited {
     color: black;
 }
 
-#jumbo {
+#jumbo, #jumbo-about {
     width: 100%;
     padding-bottom: 2%;
 }
-
 
 .top-content {
     display: flex;
@@ -213,3 +212,5 @@ nav.footer a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
