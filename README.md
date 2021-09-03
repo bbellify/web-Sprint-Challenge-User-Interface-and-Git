@@ -34,10 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML describes the content of the element. 
+Semantic HTML describes the content of the element. The word "meaningful" is used regularly by some, but I don't find this to be particularly useful. I think saying it describes the content of the element is more useful, as opposed to a div - the tag div tells you nothing about what will be found in the element.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    One, ```display: block;``` creates a new line after the end of the element, where ```inline``` does not. Second, ```block``` takes up the full width of its container by default, where ```inline``` only takes up space of its content. 
+    One, ```display: block;``` creates a new line after the end of the element, where ```inline``` does not. Second, ```block``` takes up the full width of its container by default (but can take a width), where ```inline``` only takes up space of its content and cannot take a width. 
 
 3. What are the 4 areas of the box model?
 
@@ -49,7 +50,7 @@ Content, Padding, Border, Margin
 
 5. Explain why git is valuable to a team of developers.
 
-Git allows a team of developers to work on the same project at the same time while git manages different versions. This means individual developers can break off their own branches for experimentation, merges of multiple lines of development can all be implemented onto the main branch, you can "go back in time" to previous commits if a new push breaks the site, etc.
+Git allows a team of developers to work on the same project at the same time while git manages different versions. This means individual developers can break off their own branches for experimentation, can merge  multiple lines of development to implement them all onto the same branch, you can "go back in time" to previous commits if a new push breaks the site, etc.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -75,8 +76,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box (Note: inline styles are not acceptable. All styles should be written in your index.css file):
 
