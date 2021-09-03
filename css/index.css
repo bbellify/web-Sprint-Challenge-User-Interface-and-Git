@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid green; */
+    border: 1px solid green;
 }
 
 html, body {
@@ -214,3 +214,30 @@ nav.footer a {
 }
 
 /* about page */
+
+section.about {
+    padding: 2%;
+    border-bottom: 1px dashed grey;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery-square {
+    width: 50%;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-square h2 {
+    margin-top: 2%;
+}
+
+.gallery-square a {
+    border: 1px solid black;
+
+}
