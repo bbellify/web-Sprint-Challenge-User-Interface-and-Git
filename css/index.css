@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 html, body {
@@ -70,7 +70,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -251,3 +251,6 @@ div.gallery-square a {
     color: black;
 }
 
+.bottom-about {
+    padding: 4% 1.5%;
+}
