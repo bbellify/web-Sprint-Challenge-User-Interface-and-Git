@@ -227,17 +227,27 @@ section.about {
 }
 
 .gallery-square {
-    width: 50%;
-    padding: 1.5%;
-    display: flex;
-    flex-direction: column;
+    width: 48%;
+    border-bottom: 1px dashed grey;
+    padding: 4% 0 3% 0;
 }
 
+.gallery-square img {
+    width: 100%;
+}
 .gallery-square h2 {
     margin-top: 2%;
 }
 
-.gallery-square a {
-    border: 1px solid black;
-
+div.gallery-square p {
+    margin: 5% 0;
 }
+
+div.gallery-square a {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1% 5%;
+    text-decoration: none;
+    color: black;
+}
+
